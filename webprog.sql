@@ -331,10 +331,10 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `firstname`, `lastname`, `email`, `username`, `password`, `country`, `date`, `archive`, `role`) VALUES
-(16, 'Alen', 'Å imec', 'alen@tvz.hr', 'asimec1', '$2y$12$nXE3qlfYbWQIEVhtsA7kvOz9BQlAbc695VLfSA90eOcuhUPNaupiO', 'HR', '2019-11-07 17:03:47', 'N', 1),
-(17, 'Alen', 'Å imec', 'asimec1@gmail.com', 'asimec2', '$2y$12$Y.dDgTLB6T898b.ScPzXw.eZeEQtXOhAyJgIgt3ZP7j3yDwJIHctW', 'HR', '2019-10-10 15:49:46', 'N', 3),
-(18, 'Pero', 'Peric', 'pero@gmail.com', 'pperic', '$2y$12$IL7q/La8d9GLmU87.7Z87uL0Es5P081CkNfRwZNpC8Tg7rcNlFPQ2', 'HR', '2019-10-31 16:28:31', 'Y', 3),
-(19, 'Marko', 'Maric', 'mmaric@gmail.com', 'mmaric', '$2y$12$CH0AFtwzwoWpuQw9mmueGeHv3ZOJe.WTqNqSvBYuveM6WeBiyFoxu', 'BS', '2019-10-31 17:41:19', 'N', 3);
+(16, 'Patrik', 'Pralas', 'ppralas@tvz.hr', 'ppralas', 'password123', 'HR', '2019-11-07 17:03:47', 'N', 1),
+(17, 'Patrik', 'Pralas', 'ppralas@tvz.hr', 'ppralas', 'password123', 'HR', '2019-10-10 15:49:46', 'N', 3),
+(18, 'Tomislav', 'Tomljenovic', 'tomislav@gmail.com', 'pperic', 'password123', 'HR', '2019-10-31 16:28:31', 'Y', 3),
+(19, 'Andrej', 'Plenkovic', 'andrej.plenkovic@vlada.hr', 'aplenkovic', 'password123', 'HR', '2019-10-31 17:41:19', 'N', 3);
 
 --
 -- Indexes for dumped tables

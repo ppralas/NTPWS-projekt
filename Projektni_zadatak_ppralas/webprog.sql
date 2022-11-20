@@ -307,8 +307,8 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`user_id`, `user_firstname`, `user_lastname`, `user_picture`, `user_name`, `user_pass`, `user_email`, `user_country`, `user_date`, `user_archive`) VALUES
-(14, 'Alen', 'Å imec', 'asimec.jpg', 'asimec', '$2y$12$MvEg.TeRkTn9zUUwc0ALyux..9cI5IXSukNi/V3qtyk3wy3DMxbW6', 'alen@tvz.hr', 'HR', '2016-12-13 08:27:43', 'Y');
-
+(14, 'Patrik', 'Pralas', 'asimec.jpg', 'asimec', 'password123', 'ppralas@tvz.hr', 'HR', '2022-11-21 08:27:43', 'Y');
+-- TODO: Promjenit sliku tu 
 --
 -- Indexes for dumped tables
 --
